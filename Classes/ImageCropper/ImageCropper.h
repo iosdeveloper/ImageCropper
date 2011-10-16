@@ -17,7 +17,7 @@
 @property (nonatomic, retain) UIScrollView *scrollView;
 @property (nonatomic, retain) UIImageView *imageView;
 
-@property (nonatomic, assign) id delegate;
+@property (nonatomic, assign) id <ImageCropperDelegate> delegate;
 
 - (id)initWithImage:(UIImage *)image;
 
